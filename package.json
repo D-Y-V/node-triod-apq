@@ -1,14 +1,29 @@
 {
-  "name": "triod-apq",
+  "name": "node-triod-apq",
   "version": "1.0.0",
-  "description": "Promice version of PosgreeSQL N-API connector",
+  "description": "Promise version of PosgreeSQL N-API connector",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/test.js"
   },
-  "author": " (C)",
-  "license": "ISC",
+  "gypfile": true,
+  "keywords": [
+    "PostgreSQL",
+    "libpq",
+    "node",
+    "napi",
+    "n-api",
+    "async",
+    "asyncworker",
+    "promise"
+  ],
+  "author": "Yuriy Dmitriev",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "node-addon-api": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-Y-V/node-triod-apq.git"
   }
 }
