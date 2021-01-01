@@ -1,0 +1,14 @@
+{
+  "name": "triod-apq",
+  "version": "1.0.0",
+  "description": "Promice version of PosgreeSQL N-API connector",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "author": " (C)",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^3.1.0"
+  }
+}
